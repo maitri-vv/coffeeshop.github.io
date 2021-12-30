@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial;
+  font-size: 20px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div{border: solid black; height:80%; width:60%;background-color: #F6EEE0;}
+
+input[type=text],input[type=email],input[type=number] {
+  width: 60%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  width: 50%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+</style>
+</head>
+<body style ="background-color:#D79771;">
+     <form action="C:\Users\samri\Desktop\Yash\first.html">
+      <center>
+        <div>
+            <h2 style="font-family:Georgia;">Billing Address</h2>
+            <label for="fname"> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Maitri Vaghasiya" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="maitri@sample.com" required>
+            <label for="adr"> Address</label>
+            <input type="text" id="adr" name="address" placeholder="Rose Villa, Houston,NY" required>
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="Houston" required>
+        
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="NY" required>
+          
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="Maitri Vaghasiya" required>
+            <label for="ccnum">Credit card number</label>
+            <input type="number" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September" required>
+           
+                <label for="expyear">Exp Year</label>
+                <input type="number" id="expyear" name="expyear" placeholder="2018" required>
+              
+                <label for="cvv">CVV</label>
+                <input type="number" id="cvv" name="cvv" placeholder="352" required>
+              
+        <label>
+          <input type="checkbox" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" button onclick="location.href ='file:///C:/Users/Owner/Downloads/first.html' " onclick ="alert('Payment Done Successfully')" value="Continue to checkout" class="btn">
+ 
+</div>
+   </center>
+</body>
+</html>
